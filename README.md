@@ -7,5 +7,6 @@ A função deste app é converter:
   - Libra para Kilograma
   - Dólar para Real
   - Kilometros para Metros
+  
 E suas respectivas recíprocas.
 
