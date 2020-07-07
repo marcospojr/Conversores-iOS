@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -57,10 +57,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9G-OA-p4g">
-                                        <rect key="frame" x="278" y="334" width="111" height="48"/>
+                                        <rect key="frame" x="277" y="334" width="112" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
-                                        <state key="normal" title="Farenheit">
+                                        <state key="normal" title="Farenheint">
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
                                         <connections>
@@ -70,7 +70,7 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cTY-CC-mQ7">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="cTY-CC-mQ7">
                                 <rect key="frame" x="25" y="490" width="364" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -92,8 +92,9 @@
                     <connections>
                         <outlet property="btUnit1" destination="oYk-de-PMF" id="MyB-3W-Nrf"/>
                         <outlet property="btUnit2" destination="G9G-OA-p4g" id="P8d-0O-pMy"/>
+                        <outlet property="lbResult" destination="cTY-CC-mQ7" id="tPJ-pv-7AL"/>
                         <outlet property="lbResultUnit" destination="1PJ-nB-lGR" id="0C9-XL-9vb"/>
-                        <outlet property="lbUnit" destination="cTY-CC-mQ7" id="Ejm-hw-qzo"/>
+                        <outlet property="lbUnit" destination="VnD-PH-z74" id="pRu-FJ-Lu2"/>
                         <outlet property="tfValue" destination="zu5-ar-mC2" id="ore-oX-1ah"/>
                     </connections>
                 </viewController>
